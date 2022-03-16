@@ -1,0 +1,133 @@
+body {
+  font-family: sans-serif; }
+
+.color1 {
+  color: grey; }
+
+.color2 {
+  color: white; }
+
+.cards, footer {
+  color: grey;
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 40px;
+  background-image: linear-gradient(to right, #e0e0b8, white); }
+
+h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 5rem; }
+
+.titulo h2 {
+  color: grey;
+  font-weight: 100;
+  text-align: center; }
+
+.titulo span {
+  color: grey; }
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, auto); }
+
+.imgbanner {
+  grid-row: 1/5;
+  grid-column: 3/8; }
+
+.imgbanner img {
+  width: 100%; }
+
+.infobanner {
+  grid-column: 8/11;
+  grid-row: 1/5;
+  background-color: #767985;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.infotitulo {
+  font-size: 2rem; }
+
+.infotitulo h2 {
+  color: white;
+  padding-left: 10%;
+  line-height: 0.9; }
+
+.infotitulo h2 span {
+  color: black;
+  font-weight: 300; }
+
+.listabanner ul {
+  color: white;
+  list-style-type: "-";
+  padding-left: 3rem; }
+
+.btn {
+  display: flex;
+  padding-left: 10rem; }
+
+.btninfo {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: rgba(42, 61, 65, 0.3);
+  justify-content: center;
+  padding-top: 5px;
+  border-radius: 1rem;
+  transition: all 3s; }
+
+.btninfo:hover {
+  height: 3rem;
+  background-color: bisque; }
+
+/*******************menu***************/
+.menus {
+  padding-top: 3rem 0; }
+
+.infoplatosm1 {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: grey;
+  background-image: linear-gradient(to bottom, beige, white);
+  grid-area: m1; }
+
+.infoplatosm2 {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: grey;
+  background-image: linear-gradient(to bottom, beige, white);
+  grid-area: m2; }
+
+.infoplatosm3 {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: grey;
+  background-image: linear-gradient(to bottom, beige, white);
+  grid-area: m3; }
+
+.infoplatos h2 {
+  align-self: flex-start;
+  padding-left: 10%;
+  padding-top: 35px;
+  font-size: 35px; }
+
+.infoplatos hr, .infoplatos p {
+  width: 90%; }
+
+.contenidomenu {
+  display: grid;
+  grid-template-columns: repeat(3, 15vw);
+  grid-template-areas: "m1 m2 m3";
+  justify-content: center;
+  column-gap: 5%;
+  font-family: sans-serif; }

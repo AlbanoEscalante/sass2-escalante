@@ -1,0 +1,14 @@
+$fondo1: rgb(118, 121, 133);
+$fondo2: rgba(42, 61, 65, 0.3);
+$fondo3: linear-gradient(to right, rgb(224, 224, 184), white);
+
+
+$colores:(color1:grey, color2:white);
+
+@each $clave, $valor in $colores {
+    .#{$clave} {
+        color: $valor;
+    }
+    
+}
+
